@@ -94,6 +94,36 @@ Multiple objects are created to demonstrate each constructor.
 
 A display function is used to show how different constructors provide different initializations.
 
+### Function Overloading
+
+A class is created with multiple functions having the same name but different parameter lists.
+
+The first function adds two integers.
+
+The second function adds three integers.
+
+The third function adds two floating-point numbers.
+
+The compiler automatically decides which version of the function to call based on the arguments passed.
+
+Objects are created and functions are called with different arguments to show how the correct overloaded function is chosen.
+
+The results are displayed to confirm that the same function name can perform different tasks depending on parameters.
+
+### Operator Overloading
+
+A class is created with a data member and a special function to overload the * (multiplication) operator.
+
+The constructor initializes the data member.
+
+The operator overloading function operator* is defined to multiply the values of two objects.
+
+A result object is returned after performing multiplication.
+
+Objects are created with initial values. Then, using the overloaded * operator, two objects are multiplied directly (e.g., m1 * m2).
+
+A display function is used to show that the multiplication is performed correctly using operator overloading.
+
 ### Copy Constructor
 
 A class is created with three constructors: a default constructor, a parameterized constructor, and a copy constructor.
